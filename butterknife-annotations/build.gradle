@@ -17,3 +17,5 @@ configurations {
 dependencies {
   provided deps.android
 }
+
+apply from: rootProject.file('gradle/gradle-mvn-push.gradle')
